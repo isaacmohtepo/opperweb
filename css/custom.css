@@ -398,10 +398,6 @@ input[type='radio']:checked:after {
 
 }
 
-.carousel {
-    position: fixed !important;
-}
-
 
 /* Panel */
 .sidebar {
