@@ -1,0 +1,558 @@
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+
+
+
+.logo-yabu {
+    font-family   : 'Roboto';
+    font-style    : normal;
+    font-weight   : 900;
+    font-size     : 22px;
+    line-height   : 26px;
+    text-align    : center;
+    letter-spacing: 0.065em;
+    color         : #ca38ed;
+
+}
+
+.logo-anime {
+    position      : relative;
+    font-family   : 'Roboto';
+    font-style    : normal;
+    font-weight   : 900;
+    font-size     : 22px;
+    line-height   : 26px;
+    letter-spacing: 0.065em;
+    color         : #fff;
+    left          : 1rem;
+    top           : 1rem;
+}
+
+
+.section-login-1 {
+    background-color: black;
+    height          : 100%;
+}
+
+.logo {
+    text-align: center;
+}
+
+
+.logo .logo-iniciar {
+    width     : 277px;
+    height    : 136px;
+    margin-top: 50px;
+}
+
+.texto-logo-iniciar {
+    font-style    : normal;
+    font-weight   : 900;
+    font-size     : 36.5385px;
+    line-height   : 55px;
+    text-align    : center;
+    letter-spacing: 0.065em;
+    font-family   : 'Poppins', sans-serif;
+
+    color: #FFFFFF;
+}
+
+.texto-logo-segundario {
+    font-family   : 'Roboto';
+    font-style    : italic;
+    font-weight   : 400;
+    font-size     : 16px;
+    line-height   : 19px;
+    text-align    : center;
+    letter-spacing: 0.065em;
+    color         : #FFFFFF;
+}
+
+.form-label {
+    font-family   : 'Poppins';
+    font-style    : normal;
+    font-weight   : 400;
+    font-size     : 14px;
+    line-height   : 21px;
+    letter-spacing: -0.103101px;
+    color         : #FFFFFF;
+}
+
+.formulario-imput .imput-text {
+    display        : flex;
+    flex-direction : column;
+    justify-content: center;
+    align-items    : center;
+}
+
+
+.form-login {
+    background   : rgba(255, 255, 255, 0.47) !important;
+    border       : 2px solid #fff !important;
+    box-sizing   : border-box !important;
+    border-radius: 10px !important;
+    height       : 60px !important;
+
+}
+
+.form-login::placeholder {
+    color      : red;
+    font-weight: bold;
+}
+
+.text-olvido-contraseña {
+    font-family    : 'Poppins';
+    font-style     : normal;
+    font-weight    : 400;
+    font-size      : 14px;
+    line-height    : 21px;
+    text-align     : center;
+    letter-spacing : -0.103101px;
+    color          : #E487FB;
+    text-decoration: none;
+}
+
+
+.olvido-contraseña {
+    text-align   : right;
+    margin-bottom: 20px;
+}
+
+.register {
+    text-align: center;
+    margin-top: 2rem;
+}
+
+
+.texto-register {
+    font-family   : 'Poppins';
+    font-style    : normal;
+    font-weight   : 400;
+    font-size     : 14px;
+    line-height   : 21px;
+    text-align    : center;
+    letter-spacing: -0.103101px;
+
+    color: #FFFFFF;
+}
+
+.icon-social {
+    font-size: 30px;
+    color    : #FFFFFF;
+}
+
+.sociales .icon-social {
+    background   : rgba(255, 255, 255, 0.47);
+    border       : 2px solid #FFFFFF;
+    box-sizing   : border-box;
+    border-radius: 10px;
+    padding      : 5px;
+}
+
+.btn-acceder {
+    background   : #E487FB !important;
+    border-radius: 10px;
+    width        : 100%;
+    height       : 60px;
+    font-family  : 'Archivo' !important;
+    font-style   : normal !important;
+    font-weight  : 700 !important;
+    font-size    : 16px !important;
+    line-height  : 17px !important;
+    text-align   : center !important;
+    color        : #3E1149;
+}
+
+.q-register {
+    font-family   : 'Roboto';
+    font-style    : normal;
+    font-weight   : 400;
+    font-size     : 16px;
+    line-height   : 19px;
+    text-align    : center;
+    letter-spacing: 0.065em;
+
+    color: #FFFFFF;
+}
+
+.q-register-morado {
+    color: #E487FB;
+}
+
+.q-register-div {
+    margin-top   : 45px;
+    margin-bottom: 72px;
+}
+
+.section-login-2 {
+    background: #3E1149;
+}
+
+.circulo-personaje {
+
+    max-width: 40%;
+
+}
+
+.personaje {
+
+    max-width : 45%;
+    margin-top: 30px;
+}
+
+.personaje-1 {
+    margin-top: 30px;
+    max-width : 35%;
+}
+
+.personaje-2 {
+    margin-top: 30px;
+    max-width : 35%;
+}
+
+.personaje-div {
+    text-align: center;
+    text-align: center;
+    margin-top: 80px;
+
+}
+
+.text-logo-principal {
+    font-family   : 'Roboto';
+    font-style    : normal;
+    font-weight   : 900;
+    font-size     : 80.1282px;
+    line-height   : 94px;
+    text-align    : center;
+    letter-spacing: 0.065em;
+    color         : #FFFFFF;
+    margin-top    : 10rem;
+}
+
+.text-logo-principal-yabu {
+    color: #ca38ed;
+}
+
+.parrafo-login {
+    font-family: 'Roboto';
+    font-style : normal;
+    font-weight: 400;
+    font-size  : 18px;
+    line-height: 21px;
+    text-align : center;
+
+    color: #FFFFFF;
+}
+
+.bx-minus {
+    background   : rgba(196, 196, 196, 0.48);
+    border-radius: 53px;
+    width        : 39px;
+    height       : 6px;
+}
+
+.carousel-inner {
+    position: absolute !important;
+    ;
+}
+
+
+
+.carousel-indicators {
+    position  : relative !important;
+    margin-top: 20px;
+
+}
+
+@media (max-width: 1200px) {
+    .text-logo-principal {
+
+        font-size: 56.1282px;
+
+    }
+}
+
+@media (max-width: 992px) {
+    .text-logo-principal {
+
+        font-size: 46.1282px;
+
+    }
+}
+
+@media (max-width: 767px) {
+    .section-login-2 {
+        display: none;
+    }
+
+    .section-login-2 {
+        width: 100%;
+    }
+
+}
+
+/* Register  */
+
+.logo-register {
+    width : 145px;
+    height: 149px;
+}
+
+.logo-register-div {
+    text-align: center;
+}
+
+.texto-bie {
+    display: flex;
+}
+
+.div-register {
+    margin-top: 41px !important;
+}
+
+.tipo-persona {
+    font-family: 'Poppins';
+    font-style : normal;
+    font-weight: 400;
+    font-size  : 14px;
+    line-height: 21px;
+    /* identical to box height */
+
+    letter-spacing: -0.103101px;
+
+    color: #FFFFFF;
+}
+
+.div-tipo-persona {
+    display        : inline-block;
+    align-items    : center;
+    justify-content: center;
+}
+
+
+#tipo label {
+    display: inline-block;
+}
+
+.input-group-addon {
+    text-align: center;
+}
+
+.radio {
+    color: #fff;
+}
+
+input[type='radio']:after {
+    width           : 15px;
+    height          : 15px;
+    border-radius   : 15px;
+    top             : -2px;
+    left            : -1px;
+    position        : relative;
+    background-color: #d1d3d1;
+    content         : '';
+    display         : inline-block;
+    visibility      : visible;
+    border          : 2px solid white;
+}
+
+input[type='radio']:checked:after {
+    width           : 15px;
+    height          : 15px;
+    border-radius   : 15px;
+    top             : -2px;
+    left            : -1px;
+    position        : relative;
+    background-color: #ca38ed;
+    content         : '';
+    display         : inline-block;
+    visibility      : visible;
+    border          : 2px solid white;
+}
+
+.carousel-indicators .active {
+    width : 30px !important;
+    height: 3px !important;
+}
+
+.btn-register {
+    width        : 100%;
+    height       : 60px;
+    background   : #E487FB !important;
+    border-radius: 10px;
+    margin-top   : 20px;
+    font-family  : 'Archivo';
+    font-style   : normal !important;
+    font-weight  : 700 !important;
+
+    font-size: 16px !important;
+
+    line-height: 17px !important;
+
+    text-align: center !important;
+
+    color: #3E1149 !important;
+
+
+}
+
+.carousel {
+    position: fixed !important;
+}
+
+
+/* Panel */
+.sidebar {
+    position  : fixed;
+    left      : 0;
+    width     : 250px;
+    height    : 100%;
+    background: #3E1149;
+}
+
+.sidebar ul,
+a {
+    display             : block;
+    height              : 100%;
+    width               : 100%;
+    font-family         : 'Poppins';
+    font-style          : normal;
+    font-weight         : 400;
+    font-size           : 16px;
+    line-height         : 24px;
+    padding-left        : 20px;
+    /* identical to box height */
+    letter-spacing      : -0.103101px;
+    text-decoration-line: underline;
+    text-decoration     : none !important;
+    color               : #FFFFFF !important;
+    box-sizing          : border-box;
+    text-decoration     : none;
+    transition          : .9s;
+}
+
+.sidebar .categoria {
+    margin-top    : 50px;
+    padding-left  : 40px;
+    font-family   : 'Poppins';
+    font-style    : normal;
+    font-weight   : 700;
+    font-size     : 18px;
+    line-height   : 27px;
+    /* identical to box height */
+    letter-spacing: -0.103101px;
+    color         : #FFFFFF !important;
+}
+
+.bxs-circle {
+    font-size: 10px;
+}
+
+ul li:hover a {
+    padding-left: 30px;
+    transition  : .9s;
+}
+
+li::marker {
+    color: transparent;
+}
+
+.cerrar-sess {
+    color     : #fff;
+    margin-top: 20px;
+}
+
+.nombre-user {
+    font-family   : 'Poppins';
+    font-style    : normal;
+    font-weight   : 500;
+    font-size     : 36px;
+    line-height   : 54px;
+    /* identical to box height */
+    letter-spacing: -0.103101px;
+    color         : #FFFFFF;
+    position      : relative;
+    margin-top    : 4rem !important;
+    margin-left   : 2rem;
+}
+
+.texto-opcion-panel {
+    font-family: 'Poppins';
+    font-style : normal;
+    font-weight: 500;
+    font-size  : 18px;
+    line-height: 27px;
+    /* identical to box height */
+
+    letter-spacing: -0.103101px;
+    margin-top    : 4rem !important;
+    color         : #FFFFFF;
+    margin-left   : 2rem;
+}
+
+:root {
+    --primary: #111B54;
+    --light: #ffffff;
+    --grey: #efefef;
+}
+
+
+.bg-primary { background-color: var(--primary) !important; }
+
+.bg-light { background-color: var(--light) !important; }
+
+.bg-grey { background-color: var(--grey) !important; }
+
+.bg-mix { background: linear-gradient(180deg, var(--light) 50%, var(--grey) 0); }
+
+.btn-primary {
+    background-color: var(--primary);
+    border: 0;
+}
+
+.btn-primary:hover {
+    background-color: var(--primary);
+}
+
+#sidebar-container {
+    min-height: 100vh;
+}
+  
+#sidebar-container .logo{
+    padding: 0.875rem 1.25rem;
+}
+  
+#sidebar-container .menu {
+    width: 18rem;
+}
+
+#content {
+    overflow-y: auto;
+    height: 100vh;
+    padding-bottom: 5rem;
+}
+
+.avatar {
+    max-width: 35px;
+}
+
+.btn-search {
+    right: 0;
+}
+
+.stat {
+    border-right: 1px solid var(--grey);
+}
+
+  
+@media (max-width: 768px) {
+    #sidebar-container {
+      display: none;
+    }
+    .stat {
+        border: 0;
+    }
+  }
+  
