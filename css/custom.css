@@ -13,6 +13,10 @@
   color: #ca38ed;
 }
 
+a{
+    text-decoration: none !important;
+}
+
 .logo-anime {
   position: relative;
   font-family: "Roboto";
@@ -575,9 +579,9 @@ input[type="radio"]:checked:after {
   left: 250px;
   width: calc(100% - 250px);
 }
-
 .home-title {
   margin-top: 50px;
+  margin-left: 4%;
 }
 
 .contenido {
@@ -653,13 +657,13 @@ ul {
 }
 
 .row .card-categoria {
-  margin: 60px;
+  margin: 8px;
 }
 
-.edi-boton a {
-  top: 34px;
-  left: 134px;
+
+.edi-boton {
   position: relative;
+  top: 18px;
   text-decoration: none;
   font-family: "Poppins";
   font-style: normal;
@@ -687,6 +691,22 @@ ul {
   line-height: 54px;
   /* identical to box height */
 
+  letter-spacing: -0.103101px;
+
+  color: #ffffff;
+}
+
+.titulo-card-categoria {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 36px;
+  /* identical to box height */
+
+  display: flex;
+  align-items: center;
+  text-align: center;
   letter-spacing: -0.103101px;
 
   color: #ffffff;
