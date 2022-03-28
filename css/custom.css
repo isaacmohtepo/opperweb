@@ -160,6 +160,23 @@ a{
   color: #3e1149;
 }
 
+.btn-general{
+    background: #e487fb !important;
+    border-radius: 10px;
+    width: 100%;
+    height: 60px;
+    font-family: "Archivo" !important;
+    font-style: normal !important;
+    font-weight: 700 !important;
+    font-size: 16px !important;
+    line-height: 17px !important;
+    text-align: center !important;
+    color: #3e1149 !important;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
 .btn-panel {
   width: 338px !important;
   height: 60px !important;
@@ -582,7 +599,6 @@ input[type="radio"]:checked:after {
 }
 .home-title {
   margin-top: 100px;
-  margin-left: 1%;
   margin-bottom: 20px;
 }
 
@@ -712,4 +728,11 @@ ul {
   letter-spacing: -0.103101px;
 
   color: #ffffff;
+}
+
+
+/* Actualizar categoria */
+
+.div-nom-cate{
+    margin-bottom: 40px !important;
 }
