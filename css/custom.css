@@ -12,10 +12,12 @@
   letter-spacing: 0.065em;
   color: #ca38ed;
 }
-
-a{
-    text-decoration: none !important;
-    color: #ffffff !important;
+::placeholder {
+  color: #D8D5D9 !important;
+}
+a {
+  text-decoration: none !important;
+  color: #ffffff !important;
 }
 
 .logo-anime {
@@ -160,22 +162,21 @@ a{
   color: #3e1149;
 }
 
-.btn-general{
-    background: #e487fb !important;
-    border-radius: 10px;
-    width: 100%;
-    height: 60px;
-    font-family: "Archivo" !important;
-    font-style: normal !important;
-    font-weight: 700 !important;
-    font-size: 16px !important;
-    line-height: 17px !important;
-    text-align: center !important;
-    color: #3e1149 !important;
-    margin-top: 20px;
-    margin-bottom: 20px;
+.btn-general {
+  background: #e487fb !important;
+  border-radius: 10px;
+  width: 100%;
+  height: 60px;
+  font-family: "Archivo" !important;
+  font-style: normal !important;
+  font-weight: 700 !important;
+  font-size: 16px !important;
+  line-height: 17px !important;
+  text-align: center !important;
+  color: #3e1149 !important;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
-
 
 .btn-panel {
   width: 338px !important;
@@ -678,7 +679,6 @@ ul {
   margin: 8px;
 }
 
-
 .edi-boton {
   position: relative;
   top: 18px;
@@ -730,9 +730,8 @@ ul {
   color: #ffffff;
 }
 
-
 /* Actualizar categoria */
 
-.div-nom-cate{
-    margin-bottom: 40px !important;
+.div-nom-cate {
+  margin-bottom: 40px !important;
 }
