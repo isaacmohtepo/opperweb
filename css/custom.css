@@ -22,6 +22,13 @@ a {
   color          : #ffffff !important;
 }
 
+.bx-arrow-to-left {
+  font-size: 35px;
+  position : relative;
+  left     : 2rem;
+  top      : 2rem;
+}
+
 .logo-anime {
   position      : relative;
   font-family   : "Roboto";
@@ -201,7 +208,7 @@ a {
 }
 
 .q-register-morado {
-  color: #e487fb;
+  color: #e487fb !important;
 }
 
 .q-register-div {
@@ -676,7 +683,7 @@ ul {
   }
 
   .btn-panel {
-    width        : 100% !important;
+    width: 100% !important;
   }
 }
 
@@ -795,4 +802,16 @@ ul {
 
 .div-nom-cate {
   margin-bottom: 40px !important;
+}
+
+
+@media (max-width: 767px) {
+  .section-login-1 {
+    /* The old syntax, deprecated, but still needed, prefixed, for Opera and WebKit-based browsers */
+    background: -prefix-linear-gradient(to bottom, #CA38ED, #3E1149, #000000) !important;
+
+    /* The new syntax needed by standard-compliant browsers (IE 10 and Firefox 10 onwards), without prefix */
+    background: linear-gradient(to bottom, #CA38ED, #3E1149, #000000) !important;
+
+  }
 }
