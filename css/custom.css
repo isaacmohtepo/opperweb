@@ -807,7 +807,7 @@ ul {
 
 @media (max-width: 767px) {
   .section-login-1 {
-    height: 100vh;
+    /* The old syntax, deprecated, but still needed, prefixed, for Opera and WebKit-based browsers */
     background: -prefix-linear-gradient(to bottom, #CA38ED, #3E1149, #000000) !important;
 
     /* The new syntax needed by standard-compliant browsers (IE 10 and Firefox 10 onwards), without prefix */
