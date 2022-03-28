@@ -814,4 +814,7 @@ ul {
     background: linear-gradient(to bottom, #CA38ED, #3E1149, #000000) !important;
 
   }
+  .logo-anime{
+    display: none;
+  }
 }
