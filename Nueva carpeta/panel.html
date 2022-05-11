@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="css/custom.css" />
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;1,100;1,300;1,400&display=swap"
+        rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@300;400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet" />
+    <link href="https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css" rel="stylesheet" />
+
+    <title>ひさしぶり!</title>
+</head>
+
+<body>
+    <div class="sidebar">
+        <div class="logo-details">
+            <img src="img/logo-icon.png" alt="icono - logo " />
+            <div class="logo_name" id="btn">
+                anime<span class="logo-yabu">yabu</span>
+                <i class="bx bx-chevrons-left"></i>
+            </div>
+        </div>
+        <ul class="nav-list">
+            <li>
+                <a class="ctgoria">
+                    <span class="links_name">Categorías</span>
+                </a>
+            </li>
+            <li>
+                <a href="/categoria.html">
+                    <i class="bx bx-list-ul"></i>
+                    <span class="links_name">Ver todas</span>
+                </a>
+                <span class="tooltip">Ver todas</span>
+            </li>
+            <li>
+                <a href="/crear-categoria.html">
+                    <i class="bx bx-news"></i>
+                    <span class="links_name">Crear</span>
+                </a>
+                <span class="tooltip">Crear</span>
+            </li>
+
+            <li class="cerrar-ses">
+                <a href="#">
+                    <i class="bx bxs-log-out"></i>
+                    <span class="links_name">Cerrar sesión</span>
+                </a>
+                <span class="tooltip">Cerrar sesión</span>
+            </li>
+        </ul>
+    </div>
+    <section class="home-section">
+        <div class="container">
+            <div class="row">
+                <div class="contenido">
+
+               
+                    <p class="bienv-user">Hola, Pedro Perez</p>
+
+                    <p class="text-panel-opc">Selecciona una opción:</p>
+
+                    <div>
+                        <button class="btn btn-panel">Ver todas las categorías</button>
+                    </div>
+                    <div>
+                        <button class="btn btn-panel">Crear categorías</button>
+                    </div>
+
+                    <div>
+                        <button class="btn btn-panel">Cerrar sesión</button>
+                    </div>
+            </div>
+            </div>
+        </div>
+    </section>
+    <script>
+        let sidebar = document.querySelector(".sidebar");
+        let closeBtn = document.querySelector("#btn");
+
+        closeBtn.addEventListener("click", () => {
+            sidebar.classList.toggle("open");
+            menuBtnChange();
+        });
+
+        function menuBtnChange() {
+            if (sidebar.classList.contains("open")) {
+                closeBtn.classList.replace("bx-menu", "bx-menu-alt-right");
+            } else {
+                closeBtn.classList.replace("bx-menu-alt-right", "bx-menu");
+            }
+        }
+    </script>
+</body>
+
+</html>
