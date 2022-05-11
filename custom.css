@@ -1,0 +1,218 @@
+* {
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+.home {
+    height: 100vh;
+}
+
+.humo {
+    position: absolute;
+    bottom: 0;
+    z-index: 2;
+    width: 100%;
+}
+
+.estrellas {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+}
+
+.home {
+    background-image: url("/images/homeBanner.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.nave {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.home .imgNave {
+    position: absolute;
+    bottom: 10px;
+}
+
+.base {
+    position: absolute;
+    height: 2rem;
+    background: #023047;
+    bottom: 0;
+    width: 100%;
+    left: 0;
+    z-index: 3;
+}
+
+
+.imgMontañas {
+    width: 100%;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+.empresa {
+    z-index: 10;
+    margin-top: 50px;
+}
+
+.empresa .iconEmpresa {
+    display: flex;
+    color: #ffff;
+    justify-content: flex-end;
+}
+
+.empresa .bx-right-arrow-alt {
+    position: absolute;
+    margin-top: 28px;
+    font-size: 25px;
+    margin-right: 17px;
+}
+
+.infoEmpresa {
+    color: #89cde4;
+    font-weight: 900;
+    font-size: 36px;
+}
+
+.inputEmpresa {
+    background: transparent;
+    border: solid 1px #fd9f02;
+    border-radius: 20px;
+    margin-top: 16px;
+    height: 47px;
+}
+
+.form-control {
+    color: #fff;
+}
+
+.form-control:focus {
+    color: #fff;
+    background-color: transparent;
+}
+
+
+.row .centrarInputEmpresa {
+    display: flex;
+    justify-content: center;
+}
+
+.inputEmpresa::placeholder {
+    color: white;
+}
+
+.imgGoKru {
+    width: 100%;
+}
+
+.goKru {
+    position: absolute;
+    bottom: 56px;
+    z-index: 10;
+    left: 56px;
+}
+
+.logoKru {
+    position: absolute;
+    top: 2rem;
+    left: 2rem;
+}
+
+
+.redesSociales {
+    position: absolute;
+    flex-direction: column;
+    top: 184px;
+    right: 13px;
+    z-index: 4;
+}
+
+img {
+    max-width: 100% !important;
+}
+
+svg[viewBox="0 0 512 512"] {
+    max-width: 100%;
+}
+
+.iconSocial {
+    color: #fff;
+    font-size: 2rem;
+    display: flex;
+    flex-direction: column;
+    margin: 15px;
+    text-decoration: none;
+}
+
+.bot {
+    right: 0;
+    position: absolute;
+    z-index: 30;
+    bottom: 10px;
+}
+
+.infoRobot{
+    position: absolute;
+    left: 37px;
+    font-size: 18px;
+    top: 9px;
+    font-weight: 400;
+    color: #023047;
+
+}
+
+.nube {
+    position: absolute;
+    bottom: 215px;
+    z-index: 30;
+    right: 185px;
+
+}
+
+.iconSocial:hover {
+    color: #fd9f02;
+}
+.kruBot{
+    color: #fd9f02;
+    font-weight: 900;
+}
+
+@media (max-width: 1200px) {
+    .empresa {
+        z-index: 10;
+        margin-top: 166px;
+    }
+}
+
+@media (max-width: 767px) {
+    .infoEmpresa {
+        font-size: 23px;
+    }
+
+    .logoKru {
+        display: none;
+    }
+
+    .empresa {
+        margin-top: 34px;
+    }
+}
+
+@media (max-width: 718px) {
+    .goKru {
+        display: none;
+    }
+
+    .imgMontañas {
+        display: none;
+    }
+}
