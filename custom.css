@@ -202,7 +202,7 @@ img {
 
 @media (max-width: 850px) {
     .nubeMovil {
-        display: block;
+
         width: 89%;
     }
 
@@ -216,11 +216,11 @@ img {
     }
 
     .nubeEscritorio {
-        display: none;
+
     }
 
     .infoRobot {
-        display: none;
+
     }
 
     .bot {
@@ -229,7 +229,7 @@ img {
 
     .nube {
         bottom: 414px;
-        right: 22px;
+        right: 51px;
     }
 
     .redesSociales {
