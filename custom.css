@@ -7,9 +7,6 @@ a {
     text-decoration: none;
 }
 
-.home {
-    height: 100vh;
-}
 
 .humo {
     position: absolute;
@@ -28,6 +25,10 @@ a {
     background-image: url("/images/homeBanner.png");
     background-size: cover;
     background-repeat: no-repeat;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+
 }
 
 .nave {
@@ -216,3 +217,5 @@ svg[viewBox="0 0 512 512"] {
         display: none;
     }
 }
+
+
